@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Hello Rails React App
+
 Theis app is built in order to implement a connection between a Ruby on Rails back-end and React front-end. And to understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
 
 ## Getting Started
