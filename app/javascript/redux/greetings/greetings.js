@@ -8,12 +8,14 @@ const greetingFetched = (message) => ({
 });
 
 export const getGreeting = () => (dispatch) => {
-  const URL = '/v1/greetings';
+  const URL = 'api/v1/greetings';
   fetch(URL)
-    .then((res) => res.json())
     .then((res) => {
-      dispatch(greetingFetched(res.data));
+      return res.json()
     })
+    .then((res) => {
+      dispatch(greetingFetched(res.message)); 
+    })  
     .catch((error) => console.log(error));
 };
 

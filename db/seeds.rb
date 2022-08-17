@@ -1,8 +1,7 @@
-# Populates the database with 5 greetings
-
-Greeting.create!(message: 'Hello from England!')
-Greeting.create!(message: 'Habari from Kenya!')
-Greeting.create!(message: 'Hola from Spain!')
-Greeting.create!(message: 'Ciao from Italy')
-Greeting.create!(message: 'Salam from Algeria')
-Greeting.create!(message: 'Konichiwa from Japan')
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
+#   Character.create(name: "Luke", movie: movies.first)
