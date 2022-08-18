@@ -1,53 +1,37 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# README
 
-# Hello Rails React App
-Theis app is built in order to implement a connection between a Ruby on Rails back-end and React front-end. And to understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Getting Started
-- clone the repository
-`git clone git  https://github.com/Melaku05/hello-rails-react.git`
-- navigate to the folder
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+## run the project
+`git clone https://github.com/Melaku05/hello-rails-react.git`
+
 `cd hello-rails-react`
-- Install packages
+
 `bundle install`
-- Setup database
-`rails db:reset`
--Database data
-`rails db:seed`
 
+`rails db:create`
 
-## Built With
+`rails db:migrate`
 
-- Ruby
-- Ruby on Rails 
-- PostgreSQL
-- React
-
-## Author
-
- **Melaku Shiferaw**
-
-- GitHub: [Melaku](https://github.com/Melaku05)
-- Twitter: [@Melaku](https://twitter.com/Melaku)
-- LinkedIn: [@Melaku](https://www.linkedin.com/in/melaku/)
-
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Melaku05/hello-react-rails/issues).
-
-## Show your support
-
-Give a :star:️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## :memo: License
-
-This project is [MIT](./MIT.md) licensed.
+`yarn upgrade --latest react-scripts`

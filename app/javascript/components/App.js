@@ -1,21 +1,18 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react'
 import { Provider } from 'react-redux';
-import store from '../redux/configureStore';
+import {  BrowserRouter, Routes, Route } from 'react-router-dom';
 import Greeting from './Greeting';
+import store from '../redux/configureStore';
 
-class App extends React.Component {
-  render() {
-    return (
-      <Provider store={store}>
+const App = () => {
+  return (
+    <Provider store={store}>
         <BrowserRouter>
-          <Routes>
-            <Route path="/greetings" element={<Greeting />} />
-          </Routes>
+            <Routes>
+                <Route path="/" element={( <Greeting /> )} />
+            </Routes>
         </BrowserRouter>
-      </Provider>
-    );
-  }
+    </Provider>
+  )
 }
-
 export default App;
