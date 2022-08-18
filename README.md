@@ -22,3 +22,16 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## run the project
+`git clone https://github.com/Melaku05/hello-rails-react.git`
+
+`cd hello-rails-react`
+
+`bundle install`
+
+`rails db:create`
+
+`rails db:migrate`
+
+`yarn upgrade --latest react-scripts`
